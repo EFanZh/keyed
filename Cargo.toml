@@ -1,0 +1,11 @@
+[package]
+authors = ["EFanZh <efanzh@gmail.com>"]
+categories = ["data-structures", "no-std"]
+description = "Implement comparison traits by specifying a key."
+edition = "2018"
+keywords = ["data-structures", "no-std"]
+license = "MIT"
+name = "keyed"
+readme = "README.md"
+repository = "https://github.com/EFanZh/keyed"
+version = "0.1.3"
