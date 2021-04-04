@@ -33,8 +33,8 @@ let rhs = Keyed(Item { key: 4, value: 7 });
 assert_eq!(lhs, rhs);
 ```
 
-If your key is a reference to internal data, you can use [`RefKey`](`RefKey`) trait and [`RefKeyed`](`RefKeyed`)
-wrapper:
+If your key is a reference to internal data, you can use [`RefKey`](https://docs.rs/keyed/*/keyed/trait.Key.html) trait
+and [`RefKeyed`](https://docs.rs/keyed/*/keyed/trait.RefKey.html) wrapper:
 
 ```rust
 use keyed::{RefKey, RefKeyed};
