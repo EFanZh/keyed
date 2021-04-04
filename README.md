@@ -6,7 +6,7 @@
 Make implementing key-based comparison a little bit easier. Usage:
 
 1. Implement [`Key`](https://docs.rs/keyed/*/keyed/trait.Key.html) trait for your type.
-2. Wrap your value in a [`Keyed`](https://docs.rs/keyed/*/keyed/trait.Keyed.html) structure.
+2. Wrap your value in a [`Keyed`](https://docs.rs/keyed/*/keyed/struct.Keyed.html) structure.
 
 Example:
 
@@ -34,7 +34,7 @@ assert_eq!(lhs, rhs);
 ```
 
 If your key is a reference to internal data, you can use [`RefKey`](https://docs.rs/keyed/*/keyed/trait.RefKey.html)
-trait and [`RefKeyed`](https://docs.rs/keyed/*/keyed/trait.RefKeyed.html) wrapper:
+trait and [`RefKeyed`](https://docs.rs/keyed/*/keyed/struct.RefKeyed.html) wrapper:
 
 ```rust
 use keyed::{RefKey, RefKeyed};
